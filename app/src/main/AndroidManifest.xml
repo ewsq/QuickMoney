@@ -23,7 +23,6 @@
     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
 
     <instrumentation
-
         android:name="android.test.InstrumentationTestRunner"
         android:targetPackage="com.cwp.cmoneycharge"
         android:label="Tests for com.baidu.speech.recognizerdemo" />
@@ -67,12 +66,10 @@
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
             android:value="cGSPq2Q9kRuq9ynxMdOISjGL7Q1Gg7p4" />
-
         <service
             android:name="com.baidu.location.f"
             android:enabled="true"
             android:process=":remote" />
-        >
         <meta-data
             android:name="UMENG_APPKEY"
             android:value="552bc81efd98c518a50008b2" />
